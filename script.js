@@ -15,10 +15,10 @@ fetch(url)
             let elem = dataa[element]
             $list.insertAdjacentHTML('beforeend', `
             <div class="course">
-                <img src="">
+            <img src="https://countryflagsapi.com/svg/${elem.NumCode}">
                 <h1>
                     ${elem.CharCode} <br>
-                    <img src="https://countryflagsapi.com/svg/${elem.NumCode}"> <br>
+
                     ${elem.Nominal}
                 </h1>
                 <h2>${elem.Name}</h2>
