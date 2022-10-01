@@ -70,3 +70,15 @@ body{
     /* height: 50px; */
     border-radius: 20px;
 }
+#fromImg, #toImg{
+    width: 20%;
+}
+#from, #to{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#fromSelect, #toSelect{
+    margin: 20px 0;
+}
